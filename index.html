@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barakah Fruits</title>
+
+    <!-- bootstrap linking  -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
-<body style="background-color: rgb(36, 43, 43);">
-    <header><nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+<body style="background-color: rgba(245, 249, 245, 0.921);">
+  <!-- header start -->
+    <header>
+      <!-- navbar part start -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #562EFF;">
         <div class="container">
-          <a class="navbar-brand d-flex align-items-center" href="#"><img src="image/logo.png" alt="" width="41" height="51" class="d-inline-block align-text-top">
+          <a class="navbar-brand d-flex align-items-center" href="index.html"><img src="image/logo.png" alt="company logo" width="41" height="51" class="d-inline-block align-text-top">
             <span class="ms-2"><h1>Barakah Fruits</h1></span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,26 +25,31 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Fruits</a>
+                <a class="nav-link" href="#">FRUITS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Top Fruits</a>
+                <a class="nav-link" href="#">TOP FRUITS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About US</a>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
               </li>
               </ul>
               <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Search Fruits" aria-label="Search">
+              <button class="btn btn-outline-success text-white" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
       <br>
+      <!-- navbar part end -->
+      <!-- image slider -->
       <section class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
@@ -47,12 +59,17 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+              <div class="row p-5 bg-gradient d-flex align-items-center" style="background-color: rgb(81, 80, 158);" >
                 <div class="col-lg-7">
-                  <h1> রাজশাহীর আম </h1>
+                  <h1><b> Delecious Mango </b> </h1>
+                  <p>There are a lot of varieties of mangoes are available in our Barakah Fruits online shop and 100% pure oraganic fruits.To explore the mango world,visit us by click by explore mango world </p>
+                  <button class="btn btn-warning">
+                    Explore Mango World
+                  </button>
+                  
                 </div>
                 <div class="col-lg-5">
-                  <img src="image/mango.jpg" class="d-block w-100" alt="mango">
+                  <img src="image/mango6.jpg" class="d-block w-100" alt="mango">
                 </div>
               </div>
               
@@ -60,25 +77,31 @@
             <div class="carousel-item active">
               <div class="row d-flex p-5 bg-info bg-gradient align-items-center">
                 <div class="col-lg-7">
-                 <h1>দিনাজপুরের নিচু</h1>
+                 <h1> Delicious Lichu</h1>
+                 <p>There are a lot of varieties of lichu are availble in our online shop standalone ensuring 100% organic purity</p>
+                 <button class="btn btn-warning">
+                   Explore and buy lichu
+                 </button>
                 </div>
                 <div class="col-lg-5">
                   <img src="image/lichu2.png" class="d-block w-100" alt="lichu">
                 </div>
-              </div>
-              
+              </div> 
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item active shadow-lg ">
               <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
                 <div class="col-lg-7">
-                  <h1>চাঁপাইনবাবগঞ্জের তরমুজ</h1>
+                  <h1>Delicious Watermelon</h1>
+                  <p>There are a lot of varieties of watermelon in out online shop with 100% ensurity in oraganicity </p>
+                  <button class="btn btn-warning">
+                    Explore and buy watermelon
+                  </button>
                 </div>
                 <div class="col-lg-5">
-                  <img src="image/watermelon1.png" class="d-block w-100" alt="watermelon">
+                  <img src="image/watermelon1.png" class="d-block w-100 " alt="watermelon">
                 </div>
                 </div>
-              </div>
-              
+              </div>   
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -91,7 +114,165 @@
         </div>
       </section>
     </header>
-    <h1>Hey Allah , Barakah dao</h1>
+    <main>
+      <!-- cataegories -->
+      <section class="container">
+      <div class="container my-5">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-2 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white ps-3">Banana</h1>
+              <img class="" src="image/banana.png" alt="banana" height="200" width="200" >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-2 border bg-success d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white ps-3">Pineapple</h1>
+              <img src="image/pineapple.png" alt="malta" height="200" width="200">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-2 border bg-primary d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white ps-3">Mango</h1>
+              <img src="image/maggo-transparent.png" alt="" height="200" width="200">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card part -->
+    <!-- Mango -->
+    <section class="container">
+      <h2>Mangoes</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-lg h-100">
+            <img src="image/mango4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hari vanga</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Amin Uddin Mango garden</li>
+                <li class="list-group-item">Rating : 4</li>
+                <li class="list-group-item">Price : 55 BDT per KG</li>
+              </ul>
+            </div>
+            <div class="m-3">
+              <button class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lichu -->
+    <section class="container">
+      <h2>Lichu</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-lg h-100">
+            <img src="image/lichu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dinajpuri</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banana -->
+    <section class="container">
+      <h2>Banana</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-lg h-100">
+            <img src="image/banana.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sagor Kola</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+   
     <footer>
 
     </footer>
